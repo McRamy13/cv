@@ -1,33 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Curriculum Vitae</title>
   <link rel="stylesheet" href="css/material.min.css">
+  <link rel="stylesheet" href="css/styles.css">
   <script src="utils/material.min.js"></script>
   <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 </head>
+
 <body>
-  <div class="demo-card-wide mdl-card mdl-shadow--2dp">
-    <div class="mdl-card__title">
-      <h2 class="mdl-card__title-text">Welcome</h2>
+  <!-- Navegacion -->
+    <div class="demo-layout-transparent mdl-layout mdl-js-layout contenedorMenu">
+    <header class="mdl-layout__header mdl-layout__header--transparent">
+      <div class="mdl-layout__header-row">
+        <!-- Title -->
+        <span class="mdl-layout-title">Ramón Guardia López</span>
+        <!-- Add spacer, to align navigation to the right -->
+        <div class="mdl-layout-spacer"></div>
+        <!-- Navigation -->
+        <nav class="mdl-navigation">
+          <a class="mdl-navigation__link" href="">Datos</a>
+          <a class="mdl-navigation__link" href="">Estudios</a>
+          <a class="mdl-navigation__link" href="">Trabajo</a>
+          <a class="mdl-navigation__link" href="">Portfolio</a>
+          <a class="mdl-navigation__link" href="">Prices</a>
+          <a class="mdl-navigation__link" href="">Contacto</a>
+        </nav>
+      </div>
+    </header>
+    <div class="mdl-layout__drawer">
+      <span class="mdl-layout-title">Ramón Guardia</span>
+      <nav class="mdl-navigation">
+        <a class="mdl-navigation__link" href="">Datos</a>
+        <a class="mdl-navigation__link" href="">Estudios</a>
+        <a class="mdl-navigation__link" href="">Trabajo</a>
+        <a class="mdl-navigation__link" href="">Portfolio</a>
+        <a class="mdl-navigation__link" href="">Prices</a>
+        <a class="mdl-navigation__link" href="">Contacto</a>
+      </nav>
     </div>
-    <div class="mdl-card__supporting-text">
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Mauris sagittis pellentesque lacus eleifend lacinia...
-    </div>
-    <div class="mdl-card__actions mdl-card--border">
-      <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
-        Get Started
-      </a>
-    </div>
-    <div class="mdl-card__menu">
-      <button class="mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect">
-        <i class="material-icons">share</i>
-      </button>
-    </div>
+    <main class="mdl-layout__content">
+    </main>
   </div>
 </body>
+
 </html>

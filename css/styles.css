@@ -1,0 +1,11 @@
+/*navegacion*/
+.demo-layout-transparent {
+  background: url('../img/backgrounds/indigo-pentagonal-background.png');
+  background-size: 100% 40%;
+  background-repeat: no-repeat;
+}
+.demo-layout-transparent .mdl-layout__header,
+.demo-layout-transparent .mdl-layout__drawer-button {
+  /* This background is dark, so we set text to white. Use 87% black instead if
+     your background is light. */
+  color: white;
